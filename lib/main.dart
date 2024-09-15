@@ -11,7 +11,7 @@ void main() {
     initialRoute: '/',
     routes: {
       '/': (context) => Loading(),
-      '/home': (context) => QuoteGenerator(),
+      '/home': (context) => Home(),
       '/location': (context) => ChooseLocation(),
     },
   ));

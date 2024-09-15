@@ -66,7 +66,6 @@ class _HomeState extends State<Home> {
                             };
                           });
                         }
-
                         if (data['time'] == '00:00') {
                           Future.delayed(Duration.zero, () {
                             CoolAlert.show(
